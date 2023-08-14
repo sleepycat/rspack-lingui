@@ -4,15 +4,22 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "rspack serve",
-    "build": "rspack build"
+    "build": "rspack build",
+    "extract": "lingui extract",
+    "compile": "lingui compile"
   },
   "dependencies": {
+    "@lingui/react": "^4.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@lingui/cli": "^4.4.0",
+    "@lingui/macro": "^4.4.0",
+    "@rspack/cli": "latest",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
-    "@rspack/cli": "latest"
+    "babel-plugin-macros": "^3.1.0"
   }
 }
