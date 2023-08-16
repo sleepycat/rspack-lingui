@@ -16,10 +16,12 @@
   "devDependencies": {
     "@babel/core": "^7.22.10",
     "@lingui/cli": "^4.4.0",
+    "@lingui/loader": "^4.4.0",
     "@lingui/macro": "^4.4.0",
     "@rspack/cli": "latest",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
-    "babel-plugin-macros": "^3.1.0"
+    "babel-plugin-macros": "^3.1.0",
+    "prettier": "^2.8.8"
   }
 }
